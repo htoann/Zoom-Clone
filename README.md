@@ -2,7 +2,7 @@
  
 ### Usage
 ```
-peerjs --port 3001
+peerjs --port 443
 
 npm run devStart
 ```
