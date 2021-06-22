@@ -1,6 +1,6 @@
-﻿### Zoom Clone With WebRTC
+﻿## Zoom Clone With WebRTC
  
-## Usage
+### Usage
 ```
 peerjs --port 3001
 
