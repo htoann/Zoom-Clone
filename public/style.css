@@ -29,11 +29,12 @@
 
 .main__controls {
   background-color: #1c1e20;
+  font-size: 16px;
 }
 
 .main__right {
-  background-color: #242324;
   border-left: 1px solid #3d3d42;
+  background-color: #eeeeee;
 }
 
 .main__controls {
@@ -57,7 +58,7 @@
   cursor: pointer;
 }
 
-.main__controls__button:hover {
+.main__controls__button:not(:last-child):hover {
   background-color: #343434;
   border-radius: 5px;
 }
@@ -100,10 +101,18 @@
   height: 30px;
   font-size: 16px;
   height: 40px;
+  outline: none;
 }
 
 .leave_meeting {
-  color: #eb534b;
+  color: white;
+  background-color: rgb(199, 0, 0);
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  font-weight: 600;
 }
 
 .unmute,
@@ -112,12 +121,7 @@
 }
 
 span {
-  font-family: "Arial";
-  font-size: 15px;
-  padding-top: 5px;
-}
-
-.unmute,
-.stop {
-  color: #cc3b33;
+  font-family: sans-serif;
+  padding-top: 2px;
+  font-weight: -500;
 }
