@@ -2,8 +2,6 @@
  
 ### Usage
 ```
-peerjs --port 443
-
 npm run devStart
 ```
 
